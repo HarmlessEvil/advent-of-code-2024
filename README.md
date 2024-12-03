@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-2-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-3-orange)
 
 ## About Advent of Code
 
@@ -31,11 +31,3 @@ the beginning.
 
 Solution runs in `O(N)` time of input data, and in the worst case processes all the input 4 times. The worst case is an
 anomaly in the beginning that can be fixed by removing 3rd level in the corresponding report.
-
-### Day 5: Print Queue
-
-Part 1 was about verifying if the slice is topologically sorted, and part 2 was about topologically sorting a given
-slice. Seems that the graph constructed in such a way that this sorting is unique.
-
-I liked the fact that we need to return a middle element of a slice :) Because DFS returns topological sorting in
-reverse order, and we didn't need to reverse the slice to answer the question.
