@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-5-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-6-orange)
 
 ## About Advent of Code
 
@@ -39,3 +39,8 @@ slice. Seems that the graph constructed in such a way that this sorting is uniqu
 
 I liked the fact that we need to return a middle element of a slice :) Because DFS returns topological sorting in
 reverse order, and we didn't need to reverse the slice to answer the question.
+
+### Day 6: Guard Gallivant
+
+That's literally the first time when I implemented go1.23's iterators! And I like the result that I could separate
+iteration from business logic.
