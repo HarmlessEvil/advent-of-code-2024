@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-6-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-7-orange)
 
 ## About Advent of Code
 
@@ -44,3 +44,11 @@ reverse order, and we didn't need to reverse the slice to answer the question.
 
 That's literally the first time when I implemented go1.23's iterators! And I like the result that I could separate
 iteration from business logic.
+
+### Day 7: Bridge Repair
+
+Trick to concatenate numbers using arithmetic operations is quite easy, but nevertheless is nice!
+
+And despite it being on the surface, I like how I engineered the code to accept operations. It helped me to avoid code
+duplication, and, to be fair to double-check implementation. Because initially I guessed argument order, but I had to be
+mindful about it after I extracted operations into separate functions.
