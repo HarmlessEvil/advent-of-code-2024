@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-14-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-15-orange)
 
 ## About Advent of Code
 
@@ -52,3 +52,8 @@ Trick to concatenate numbers using arithmetic operations is quite easy, but neve
 And despite it being on the surface, I like how I engineered the code to accept operations. It helped me to avoid code
 duplication, and, to be fair to double-check implementation. Because initially I guessed argument order, but I had to be
 mindful about it after I extracted operations into separate functions.
+
+### Day 15: Warehouse Woes
+
+I used BFS to find all boxes that robot would push. Then I moved them one by one, from the most far to the nearest
+layer.
