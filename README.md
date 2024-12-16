@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-15-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-16-orange)
 
 ## About Advent of Code
 
@@ -57,3 +57,13 @@ mindful about it after I extracted operations into separate functions.
 
 I used BFS to find all boxes that robot would push. Then I moved them one by one, from the most far to the nearest
 layer.
+
+### Day 16: Reindeer Maze
+
+First part can be solved by BFS, but I used Dijkstra's algorithm for both parts, because I started modifying my solution
+to make it solve both parts.
+
+To account for turns I represent map in 3D, where 3rd dimension is direction of a reindeer.
+
+To find all shortest paths, for each visited tile I store list of previous tiles that lead to the current tile with the
+same score. It was a nice addition to Dijkstra's algorithm that I've never thought of before!
