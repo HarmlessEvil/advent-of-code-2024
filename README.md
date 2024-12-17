@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-16-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-17-orange)
 
 ## About Advent of Code
 
@@ -67,3 +67,14 @@ To account for turns I represent map in 3D, where 3rd dimension is direction of 
 
 To find all shortest paths, for each visited tile I store list of previous tiles that lead to the current tile with the
 same score. It was a nice addition to Dijkstra's algorithm that I've never thought of before!
+
+### Day 17: Chronospatial Computer
+
+I wholeheartedly enjoy puzzles where you need to craft some sort of interpreter or virtual machine! I saw some design
+challenges and want to explore more about the VM architecture. For example, the most obvious flaw to me is that in my
+code I have too tight coupling between the VM itself and the instruction set.
+
+Part 2 was the most difficult for me so far. I did spot the pattern that the program has a cycle until register A equals
+to 0, and did spot that we divide A by three every iteration. Unfortunately, it was not enough for me to draw any
+conclusions. So I had to resort to Reddit for hints, and the most groundbreaking one for me was that we should build the
+value for A by comparing the suffix of the program, instead of the prefix.
