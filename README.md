@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-18-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-19-orange)
 
 ## About Advent of Code
 
@@ -78,3 +78,8 @@ Part 2 was the most difficult for me so far. I did spot the pattern that the pro
 to 0, and did spot that we divide A by three every iteration. Unfortunately, it was not enough for me to draw any
 conclusions. So I had to resort to Reddit for hints, and the most groundbreaking one for me was that we should build the
 value for A by comparing the suffix of the program, instead of the prefix.
+
+### Day 19: Linen Layout
+
+I wish I saw part 1 as dynamic programming problem from the beginning! This way part 1 was more difficult for me
+compared to part 2.
