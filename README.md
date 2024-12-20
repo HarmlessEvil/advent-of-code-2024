@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-19-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-20-orange)
 
 ## About Advent of Code
 
@@ -83,3 +83,14 @@ value for A by comparing the suffix of the program, instead of the prefix.
 
 I wish I saw part 1 as dynamic programming problem from the beginning! This way part 1 was more difficult for me
 compared to part 2.
+
+### Day 20: Race Condition
+
+It was a fiasco in terms of how much time I spent on it. I didn't pay enough attention to the fact that there is only a
+single path from start to end, and I was expecting some tricky teleport to the other side of the finish line which would
+follow the way that did not belong to the non-cheating path. I also thought that you can travel through two walls in the
+part 1.
+
+The idea of always jumping closer to the finish was always with me, but I couldn't persuade myself that it'll work.
+Apparently, it did work, and it's clear how dramatically simpler my code for part 2 looks compared to part 1. I guess, I
+want to leave it as is just to illustrate my thought process, and how it lead me to a dead end.
