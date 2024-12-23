@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-22-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-23-orange)
 
 ## About Advent of Code
 
@@ -94,3 +94,10 @@ part 1.
 The idea of always jumping closer to the finish was always with me, but I couldn't persuade myself that it'll work.
 Apparently, it did work, and it's clear how dramatically simpler my code for part 2 looks compared to part 1. I guess, I
 want to leave it as is just to illustrate my thought process, and how it lead me to a dead end.
+
+### Day 23: LAN Party
+
+Today I learned about algorithm for enumerating maximal cliques! I did know about the term clique (although, forgot the
+term itself, and worded it as fully-connected subgraph), but I've never looked up how those cliques can be found.
+
+And, actually, I've never heard about LAN-parties before as well.
