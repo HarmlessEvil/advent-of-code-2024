@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-23-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-24-orange)
 
 ## About Advent of Code
 
