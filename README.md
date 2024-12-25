@@ -2,7 +2,7 @@
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2024-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
-![Days Completed](https://img.shields.io/badge/Days%20Completed-24-orange)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-25-orange)
 
 ## About Advent of Code
 
@@ -101,3 +101,7 @@ Today I learned about algorithm for enumerating maximal cliques! I did know abou
 term itself, and worded it as fully-connected subgraph), but I've never looked up how those cliques can be found.
 
 And, actually, I've never heard about LAN-parties before as well.
+
+### Day 25: Code Chronicle
+
+I like the joke in this day's problem, which is about brute-forcing the solution for the literal brute force :)
